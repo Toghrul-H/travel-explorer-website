@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Hidden Gems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>Hidden Gems</h1>
+    <nav>
+      <a href="homepage.html">Homepage</a> |
+      <a href="topdestination.html">Top Destinations</a> |
+      <a href="hiddengems.html">Hidden Gems</a> |
+      <a href="travelcosts.html">Travel Costs</a> |
+      <a href="contact.html">Contact & Form</a>
+    </nav>
+    <div>
+      <button onclick="increaseFontSize()">A+</button>
+      <button onclick="decreaseFontSize()">A-</button>
+      <a href="#main-content" class="skip-link"><button>Skip to main content</button></a>
+    </div>
+  </header>
+
+<section id="main-content">
+    <h2>Hidden Travel Gems</h2>
+    <ul>
+        <li> <strong>Hallstatt, Austria</strong> – Lakeside views, fairy tale village. </li>
+            <img src="Pictures/Hallstatt.jpg" width="500" height="auto">
+            <p>A stunning lakeside village with picturesque mountain views, charming traditional houses, and crystal-clear waters. Hallstatt is a hidden gem that feels like stepping into a fairy tale, perfect for those looking for tranquility and natural beauty.</p>
+        
+
+        <li> <strong>Chefchaouen, Morocco</strong> – Blue-painted streets, peaceful atmosphere. </li>
+            <img src="Pictures/morocco.jpg" width="500" height="auto">
+            <p>Known as the Blue Pearl of Morocco, Chefchaouen is famous for its striking blue-painted streets and peaceful atmosphere. This magical town offers a serene experience, away from the hustle and bustle of larger cities, where you can lose yourself in its narrow, colorful streets.</p>
+
+
+        <li> <strong>Hoi An, Vietnam</strong> – Ancient town, lanterns, street food. </li>
+            <img src="Pictures/vietnam.jpg" width="500" height="auto">
+            <p>A beautifully preserved ancient town filled with vibrant lanterns, traditional architecture, and delightful street food. Hoi An is a place where history comes alive, offering a glimpse into Vietnam's past while also serving up some of the best local cuisine.</p>
+        
+
+        <li> <strong>Banff National Park, Canada</strong> – Mountains, wildlife, pristine lakes. </li>
+            <img src="Pictures/canada.jpg" width="500" height="auto">
+            <p>A paradise for nature lovers, Banff National Park is home to majestic mountains, pristine lakes, and abundant wildlife. This stunning destination is perfect for outdoor enthusiasts, offering hiking, skiing, and some of the most breathtaking views in the world.</p>
+        
+    </ul>
+</section>
+
+<footer>
+    <p>Author: Toghrul Hasanli (<a href="mailto:toghrulhasanli2@gmail.com">toghrulhasanli2@gmail.com</a>)</p>
+    <p>H-1117 Budapest, Noname street 17</p>
+</footer>
+
+<script>
+    function increaseFontSize() {
+      document.body.style.fontSize = "larger";
+    }
+
+    function decreaseFontSize() {
+      document.body.style.fontSize = "smaller";
+    }
+  </script>
+
+</body>
+</html>

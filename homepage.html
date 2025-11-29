@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Travel Explorer</h1>
+    <nav>
+      <a href="homepage.html">Homepage</a> |
+      <a href="topdestination.html">Top Destinations</a> |
+      <a href="hiddengems.html">Hidden Gems</a> |
+      <a href="travelcosts.html">Travel Costs</a> |
+      <a href="contact.html">Contact & Form</a>
+    </nav>
+    <div>
+      <button onclick="increaseFontSize()">A+</button>
+      <button onclick="decreaseFontSize()">A-</button>
+      <a href="#main-content" class="skip-link"><button>Skip to main content</button></a>
+
+    </div>
+  </header>
+
+  <section id="main-content">
+    <h2>Introduction</h2>
+    <p>Welcome to Travel Explorer, your ultimate guide to exploring the world's most exciting destinations. Whether you dream of relaxing on serene beaches, hiking in lush mountains, or immersing yourself in vibrant cultures, our blog offers expert travel tips, must-visit places, and insightful advice to make your journey unforgettable.</p>
+    <p>From breathtaking natural wonders to secret urban spots only locals know about, we aim to inspire every type of traveler. Our mission is to not just help you visit a place—but to truly experience it. With stories, photos, and insider guidance, Travel Explorer becomes your passport to the world.</p>
+    <img src="Pictures/homepage.jpg" alt="World landmarks illustration" class="thumbnail">
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>At Travel Explorer, we go beyond basic travel guides. Our content is created by passionate explorers who have lived the experiences they write about. Whether it's savoring street food in Vietnam, hiking glacier trails in Canada, or catching sunsets over the Aegean Sea, we bring you the real deal.</p>
+    <p>We also break down travel costs, suggest local hacks to save money, and showcase both iconic landmarks and underrated destinations. Our “Hidden Gems” section helps you escape the crowds and discover authentic experiences.</p>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>Travel Explorer is built on the belief that travel connects people. We want to help you break boundaries, make friends around the globe, and collect unforgettable memories. Travel isn't just about ticking places off a list—it's about feeling alive.</p>
+    <p>Whether you’re a solo traveler chasing adventure or a couple seeking romance, our curated guides and tips are here to ensure you make the most of every moment. Let’s explore the world, one journey at a time.</p>
+  </section>
+
+  <footer>
+    <p>Author: Toghrul Hasanli (<a href="mailto:toghrulhasanli2@gmail.com">toghrulhasanli2@gmail.com</a>)</p>
+    <p>H-1117 Budapest, Noname street 17</p>
+  </footer>
+
+  <script>
+    function increaseFontSize() {
+      document.body.style.fontSize = "larger";
+    }
+
+    function decreaseFontSize() {
+      document.body.style.fontSize = "smaller";
+    }
+  </script>
+</body>
+</html>

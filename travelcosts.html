@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Travel Costs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>Travel Costs</h1>
+    <nav>
+      <a href="homepage.html">Homepage</a> |
+      <a href="topdestination.html">Top Destinations</a> |
+      <a href="hiddengems.html">Hidden Gems</a> |
+      <a href="travelcosts.html">Travel Costs</a> |
+      <a href="contact.html">Contact & Form</a>
+    </nav>
+    <div>
+      <button onclick="increaseFontSize()">A+</button>
+      <button onclick="decreaseFontSize()">A-</button>
+      <a href="#main-content" class="skip-link"><button>Skip to main content</button></a>
+    </div>
+  </header>
+
+  <section id="main-content">
+    <h2>Average Travel Costs by Destination</h2>
+    <table class="travel-costs" summary="Table of weekly travel cost estimates per person.">
+      <caption>Weekly Cost Estimates (Per Person)</caption>
+      <thead>
+        <tr>
+          <th>Destination</th>
+          <th>Accommodation (per night)</th>
+          <th>Food (per day)</th>
+          <th>Transport (per day)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Paris, France</td>
+          <td>€120</td>
+          <td>€40</td>
+          <td>€20</td>
+        </tr>
+        <tr>
+          <td>Kyoto, Japan</td>
+          <td>€100</td>
+          <td>€35</td>
+          <td>€25</td>
+        </tr>
+        <tr>
+          <td>Machu Picchu, Peru</td>
+          <td>€80</td>
+          <td>€20</td>
+          <td>€15</td>
+        </tr>
+        <tr>
+          <td>Santorini, Greece</td>
+          <td>€130</td>
+          <td>€45</td>
+          <td>€30</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Pictures</h2>
+    <div class="thumbnail-container">
+      <a href="Pictures/paris_thumbnail.jpg" target="_blank">
+        <img src="Pictures/paris_thumbnail.jpg" alt="Paris thumbnail" class="thumbnail">
+      </a>
+      <a href="Pictures/banff_thumbnail.jpg" target="_blank">
+        <img src="Pictures/banff_thumbnail.jpg" alt="Banff thumbnail" class="thumbnail">
+      </a>
+    </div>
+  </section>
+  
+
+  <section>
+    <h3>Travel Inspiration Video</h3>
+    <p>Enjoy this cinematic montage:</p>
+    <video width="600" controls>
+        <source src="Videos/Japan_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+  
+
+  <footer>
+    <p>Author: Toghrul Hasanli (<a href="mailto:toghrulhasanli2@gmail.com">toghrulhasanli2@gmail.com</a>)</p>
+    <p>H-1117 Budapest, Noname street 17</p>
+  </footer>
+
+  <script>
+    function increaseFontSize() {
+      document.body.style.fontSize = "larger";
+    }
+
+    function decreaseFontSize() {
+      document.body.style.fontSize = "smaller";
+    }
+  </script>
+
+</body>
+</html>
